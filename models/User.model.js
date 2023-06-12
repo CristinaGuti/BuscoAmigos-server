@@ -79,5 +79,3 @@ userSchema.methods.validatePassword = function (candidatePassword) {
 const User = model("user", userSchema)
 
 module.exports = User
-
-
